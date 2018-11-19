@@ -151,7 +151,7 @@ class MonitorThread(threading.Thread):
                 previous = request_counter
         if flag == 2:
             print
-            "\n-- ############# Sabrina Summoned to end the Attacks #################"
+            "\n----Sabrina Summoned to end the Attacks------"
 
 
 # execute
@@ -164,7 +164,7 @@ else:
         sys.exit()
     else:
         print
-        "-*************************** Sabrina summoned the plagues ****************************"
+        "-------Sabrina summoned the plagues------"
         if len(sys.argv) == 3:
             if sys.argv[2] == "safe":
                 set_safe()
